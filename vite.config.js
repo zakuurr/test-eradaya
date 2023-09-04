@@ -7,7 +7,7 @@ import vue from "@vitejs/plugin-vue";
 export default ({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
   return defineConfig({
-    base: '/test-eradaya',
+    base: '/test-eradaya/',
     define: {
       "process.env": env,
     },
